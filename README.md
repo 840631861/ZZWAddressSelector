@@ -122,7 +122,7 @@ province2city.put(provinceId, cities);
 1. gradle导入控件
 
 ```
-compile 'com.zr.addressselector:library:1.0.1'
+implementation 'com.github.840631861:ZZWAddressSelector:1.0'
 ```
 
 2. Activity实现`OnAddressSelectedListener`接口
