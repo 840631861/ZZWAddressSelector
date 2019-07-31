@@ -38,6 +38,7 @@ public class MainActivity extends AppCompatActivity implements OnAddressSelected
                 Province province = new Province();
                 province.id = 1;
                 province.name = "浙江省";
+                province.params = "其他";
 
                 City city1 = new City();
                 city1.province_id = province.id;
